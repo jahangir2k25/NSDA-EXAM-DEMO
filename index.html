@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Indotravi - Travel & Tour</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- ===== Navbar ===== -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-transparent">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">INDOTRAVI</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Pages/about/About.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Pages/contact/Contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Pages/faq/Faq.html">FAQ</a></li>
+                </ul>
+                <a href="#" class="btn btn-light btn-sm">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== Hero Section ===== -->
+    <!-- ===== Banner Carousel ===== -->
+    <section class="banner-section">
+        <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+            <div class="carousel-inner">
+
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" class="d-block w-100"
+                        alt="">
+                    <div class="carousel-caption">
+                        <h1>Extraordinary natural and cultural charm</h1>
+                        <p>Exploring Indonesia is an unforgettable adventure</p>
+
+                        <div class="search-box">
+                            <input type="text" placeholder="Destination">
+                            <input type="date">
+                            <select>
+                                <option>Budget</option>
+                                <option>$100 - $500</option>
+                                <option>$500 - $1000</option>
+                            </select>
+                            <button>Search</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" class="d-block w-100"
+                        alt="">
+                    <div class="carousel-caption">
+                        <h1>Enjoy your dream vacation</h1>
+                        <p>Discover beautiful destinations with us</p>
+
+                        <div class="search-box">
+                            <input type="text" placeholder="Destination">
+                            <input type="date">
+                            <select>
+                                <option>Budget</option>
+                                <option>$100 - $500</option>
+                                <option>$500 - $1000</option>
+                            </select>
+                            <button>Search</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1548013146-72479768bada" class="d-block w-100" alt="">
+                    <div class="carousel-caption">
+                        <h1>Travel makes memories</h1>
+                        <p>Let’s explore the world together</p>
+
+                        <div class="search-box">
+                            <input type="text" placeholder="Destination">
+                            <input type="date">
+                            <select>
+                                <option>Budget</option>
+                                <option>$100 - $500</option>
+                                <option>$500 - $1000</option>
+                            </select>
+                            <button>Search</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+
+        </div>
+    </section>
+
+
+    <!-- ===== Stats ===== -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3">
+                    <h4>10M+</h4>
+                    <p>Total Customers</p>
+                </div>
+                <div class="col-md-3">
+                    <h4>09+</h4>
+                    <p>Years Experience</p>
+                </div>
+                <div class="col-md-3">
+                    <h4>12K</h4>
+                    <p>Total Destinations</p>
+                </div>
+                <div class="col-md-3">
+                    <h4>5.0</h4>
+                    <p>Average Rating</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Popular Destinations ===== -->
+    <section class="container my-5">
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <h2>Indonesian tourism</h2>
+            </div>
+            <div class="col-md-6 text-muted">
+                Extraordinary natural beauty, enjoy the rich culture.
+            </div>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="destination-card"
+                    style="background-image:url('https://images.unsplash.com/photo-1501785888041-af3ef285b470');">
+                    <span>Bromo, East Java</span>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="destination-card"
+                    style="background-image:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');">
+                    <span>Bali Beach</span>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="destination-card"
+                    style="background-image:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee');">
+                    <span>Sumatra</span>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="destination-card"
+                    style="background-image:url('https://images.unsplash.com/photo-1548013146-72479768bada');">
+                    <span>Borobudur</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Tour Packages ===== -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="mb-4">Our tourist destination</h2>
+            <div class="row g-4">
+
+                <div class="col-md-4">
+                    <div class="card tour-card">
+                        <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429" class="card-img-top">
+                        <div class="card-body">
+                            <h5>Bali Tour Package</h5>
+                            <p>$285</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card tour-card">
+                        <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7" class="card-img-top">
+                        <div class="card-body">
+                            <h5>Java Tour Package</h5>
+                            <p>$218</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card tour-card">
+                        <img src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1" class="card-img-top">
+                        <div class="card-body">
+                            <h5>Solo Tour Package</h5>
+                            <p>$163</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Traveler Photo Gallery ===== -->
+    <section class="container my-5">
+        <div class="text-center mb-4">
+            <h2 class="fw-bold">Traveler Photo Gallery</h2>
+            <p class="text-muted">Real moments from our happy travelers</p>
+        </div>
+
+        <div class="row g-4">
+            <!-- Card 1 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card traveler-card">
+                    <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" class="card-img-top"
+                        alt="Traveler Mountain">
+                    <div class="card-body">
+                        <h5 class="card-title">Mountain Explorer</h5>
+                        <p class="card-text">Enjoying breathtaking mountain views.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card traveler-card">
+                    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" class="card-img-top"
+                        alt="Traveler Beach">
+                    <div class="card-body">
+                        <h5 class="card-title">Beach Traveler</h5>
+                        <p class="card-text">Relaxing by the sea and sunset.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card traveler-card">
+                    <img src="https://images.unsplash.com/photo-1519817650390-64a93db511aa" class="card-img-top"
+                        alt="Traveler Road">
+                    <div class="card-body">
+                        <h5 class="card-title">Road Trip Adventure</h5>
+                        <p class="card-text">Memories made on the open road.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card traveler-card">
+                    <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429" class="card-img-top"
+                        alt="Traveler Forest">
+                    <div class="card-body">
+                        <h5 class="card-title">Forest Journey</h5>
+                        <p class="card-text">Walking through peaceful forests.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card traveler-card">
+                    <img src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1" class="card-img-top"
+                        alt="Traveler City">
+                    <div class="card-body">
+                        <h5 class="card-title">City Wanderer</h5>
+                        <p class="card-text">Exploring vibrant city life.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card traveler-card">
+                    <img src="https://images.unsplash.com/photo-1548013146-72479768bada" class="card-img-top"
+                        alt="Traveler Heritage">
+                    <div class="card-body">
+                        <h5 class="card-title">Cultural Explorer</h5>
+                        <p class="card-text">Visiting historical places.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ===== Footer ===== -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+
+                <!-- Brand -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h4 class="footer-logo">INDOTRAVI</h4>
+                    <p class="footer-text">
+                        Discover the beauty of the world with us.
+                        Travel smarter, travel happier.
+                    </p>
+                </div>
+
+                <!-- About -->
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>About</h5>
+                    <ul class="footer-list">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Gallery</a></li>
+                    </ul>
+                </div>
+
+                <!-- Support -->
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Support</h5>
+                    <ul class="footer-list">
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Live Chat</a></li>
+                    </ul>
+                </div>
+
+                <!-- Tour -->
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Tour</h5>
+                    <ul class="footer-list">
+                        <li><a href="#">Destinations</a></li>
+                        <li><a href="#">Packages</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Reviews</a></li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Newsletter</h5>
+                    <ul class="footer-list">
+                        <li>
+                            <form class="newsletter-form">
+                                <input type="email" placeholder="Your email">
+                                <button type="submit">Subscribe</button>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div class="text-center footer-bottom">
+                © 2026 INDOTRAVI. All Rights Reserved
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
