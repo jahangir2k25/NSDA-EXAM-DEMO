@@ -12,6 +12,28 @@ if (navMenu) {
     navMenu.addEventListener('hide.bs.collapse', () => toggler.classList.remove('open'));
 }
 
+// current date time
+function updateDateTime() {
+    const now = new Date();
+
+    const options = {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+        weekday: 'long',
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit'
+    };
+
+    document.getElementById("dateTime").textContent =
+        now.toLocaleString("en-US", options);
+}
+// initial call
+updateDateTime();
+// update every second
+setInterval(updateDateTime, 1000);
+
 
 // contact form validation
 const form = document.getElementById("contactForm");
